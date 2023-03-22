@@ -1,9 +1,9 @@
 <script>
 export default {
-    data(){
-        return{
-            title: 'La mia prima app con Vite'
-        }
+    data() {
+        return {
+            title: "La mia prima app con Vite"
+        };
     }
 }
 </script>
@@ -11,4 +11,7 @@ export default {
     <h1>{{ title }}</h1>
 </template>
 <style>
+h1 {
+    text-align: center;
+}
 </style>
