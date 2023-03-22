@@ -2,7 +2,7 @@
     export default {
         data() {
             return {
-                url: 'src/assets/6208958.webp'
+                url: './src/assets/6208958.webp'
             }
         }
     }
@@ -12,7 +12,7 @@
         <img :src="url" alt="foto">
     </div>
 </template>
-<style>
+<style scoped>
 div {
     width: 90%;
     margin: 0 auto;
